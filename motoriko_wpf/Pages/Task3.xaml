@@ -1,0 +1,33 @@
+﻿<Page x:Class="motoriko_wpf.Pages.Task3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Задача 3">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" FontWeight="Bold" FontSize="14"
+                   Text="Задача 3. Дан целочисленный массив размера N. Преобразовать его, прибавив к чётным числам последний элемент. Первый и последний элементы массива не изменять."/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,15">
+            <TextBlock Text="Размер массива N: " VerticalAlignment="Center"/>
+            <TextBox Name="txtSize" Width="80"/>
+            <Button Name="btnGenerate" Content="Сгенерировать" Margin="10,0,0,0" Padding="10,3" Click="btnGenerate_Click"/>
+            <Button Name="btnCalculate" Content="Выполнить" Margin="10,0,0,0" Padding="10,3" Click="btnCalculate_Click"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="2" Text="Исходный массив:" FontWeight="Bold"/>
+        <TextBox Grid.Row="3" Name="txtOriginal" IsReadOnly="True" Height="50"
+                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+
+        <TextBlock Grid.Row="4" Text="Результат:" FontWeight="Bold"/>
+        <TextBox Grid.Row="5" Name="txtResult" IsReadOnly="True" Height="80"
+                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Page>

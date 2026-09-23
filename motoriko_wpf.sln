@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motoriko_wpf", "motoriko_wpf\motoriko_wpf.csproj", "{2A3C7D1B-B60E-4F62-A7AC-91FB8242FB76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A3C7D1B-B60E-4F62-A7AC-91FB8242FB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3C7D1B-B60E-4F62-A7AC-91FB8242FB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3C7D1B-B60E-4F62-A7AC-91FB8242FB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3C7D1B-B60E-4F62-A7AC-91FB8242FB76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FA7AE5F-91A3-47A2-BD26-20843F554964}
+	EndGlobalSection
+EndGlobal
