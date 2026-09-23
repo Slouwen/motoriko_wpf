@@ -11,7 +11,7 @@ namespace motoriko_wpf.Pages
         {
             if (!int.TryParse(txtInput.Text, out int number) || number < 1 || number > 9999)
             {
-                MessageBox.Show("Введите целое число от 1 до 9999!");
+                MessageBox.Show("Введите целое число от 1 до 9999");
                 return;
             }
 
